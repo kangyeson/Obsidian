@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "70cbb3e5762db4d3",
+        "id": "362e1a89ee7c14bd",
         "type": "tabs",
         "children": [
           {
-            "id": "99fb98bcefa89d6a",
+            "id": "ed57879a6cf274ac",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/plugins/obsidian-git/data.json",
-                "bFile": ".obsidian/plugins/obsidian-git/data.json",
-                "aRef": ""
+                "file": "Obsidian/PlugIn 정리.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: data.json"
+              "icon": "lucide-file",
+              "title": "PlugIn 정리"
             }
           }
         ]
@@ -179,14 +179,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "99fb98bcefa89d6a",
+  "active": "ed57879a6cf274ac",
   "lastOpenFiles": [
+    "프로그래머스(level0)/코드 처리하기.md",
+    "Obsidian/PlugIn 정리.md",
+    "Obsidian",
+    "무제.md",
     "README.md",
-    "Python.md",
-    "Python/대소문자 바꾸기.md",
+    "프로그래머스(level0)",
+    "Python/startswith(), endswith()함수(문자열 시작 문자, 끝 문자 검색).md",
+    "Python/리스트의 두 원소값 swap.md",
+    "Python/zip함수(두 리스트의 데이터 엮기).md",
     "Python/컴프리헨션(Comprehension).md",
-    "Python/문자열 보간 f’{}’ & format함수.md",
     "Python/map함수.md",
+    "Python/대소문자 바꾸기.md",
+    "Python.md",
+    "Python/문자열 보간 f’{}’ & format함수.md",
     "().md",
     "Pasted image 20250318231249.png",
     "Python/입력값 받기(input, map, split, 2차원 배열).md",

@@ -7,6 +7,8 @@
 [표현식 for 요소 in 반복 가능한 객체 if 조건문]
 ```
 
+![](https://i.imgur.com/84NkpWR.png)
+
 ex) 1부터 10까지의 제곱 값을 갖는 리스트 생성
 
 ```python
