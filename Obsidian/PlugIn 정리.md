@@ -17,6 +17,50 @@
 
 
 ### 2. Git
+효율적인 버전 관리, 멀티 디바이스 동기화 구현을 위한 깃허브 연동을 지원하는 플러그인
+
+선행사항:
+- 깃허브 설치(https://git-scm.com/)
+- 깃허브 레포지토리 생성 (public or private Repository 추가)
+	- Public Repository로 생성 시, '.gitignore' 파일에 비공개할 note만 따로 설정 가능
+![|500](https://i.imgur.com/pBf1nGd.png)
+
+![|500](https://i.imgur.com/N09wDcj.png)
+
+C:\Users\yeson\Desktop\YesonObsidian\.obsidian
+관리할 옵시디언 볼트 폴더에서 터미널 열어 git설정
+```Shell
+git init
+git config --local user.name "깃허브 아이디 이름"
+git config --local user.email "깃허브 이메일 이름"
+```
+- .gitignore파일 추가하여 git커밋에서 제외할 파일 설정
+```null
+.obsidian/
+
+.obsidian/workspace-mobile.json
+.obsidian/workspace.json
+.obsidian/app.json
+
+.trash/
+.DS_Store
+```
+- 깃허브에 올리기
+```shell
+git add .
+git commit -m "initial commit"
+git branch -M main 
+git remote add origin "생성한 깃허브 주소"
+git push -u origin main
+```
+- 오류난다면 Options에서 커밋 Author를 설정했는지 확인해보기
+![400](https://i.imgur.com/BgPA4Rq.png)
+- 일정 시간마다 자동으로 커밋해주는 기능도 있지만 정직한 깃허브 잔디밭 관리를 위해 직접 해주기로 했다.
+![500](https://i.imgur.com/ZCTlKrn.png)
+- 수동 커밋은 좌측 메뉴 중 Open Git source control메뉴 눌러, 우측 커밋창에서 Staged Changes 시켜 commit, push 가능하다.
+![50](https://i.imgur.com/a9CGyT6.png) ![200](https://i.imgur.com/9axrfj7.png)
+
+
 
 ### 3. Mouse Wheel Image Zoom
 이미지 파일의 사이즈 조절을 마우스 휠로 간편하게 할 수 있도록 지원해주는 플러그인
