@@ -70,8 +70,19 @@ print(number_list) #[1, 10, 100]
 
 map함수와 split함수를 응용하여 이차원 배열도 입력받을 수 있다.
 
-**1 0 0 0 0 1 0 0 0 0 1 0**
+**1 0 0 0 
+0 1 0 0 
+0 0 1 0**
 
 아래 코드에 위 input을 넣을 경우 아래와 같은 이차원 배열값을 출력할 수 있음.
 
-**[[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0]]**
+\[\[1, 0, 0, 0], \[0, 1, 0, 0], \[0, 0, 1, 0]]
+```python
+word_map = []
+for _ in range(8):
+	word_map.append(list(map(int, input().split())))
+print(word_map) # [[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0]]
+
+word_map2 = [list(map(int, input().split())) for _ in range(8)]
+print(word_map2) # [[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0]]
+```

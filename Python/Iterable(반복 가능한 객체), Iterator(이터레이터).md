@@ -113,7 +113,8 @@ print(isinstance(Temp(), Iterable)) #True
 
 **Iterator**는 Itreable 객체에서 __iter__메서드를 통해 생성되는 객체이다.
 
-![image.png](attachment:76bc4b94-2972-4a56-bbc9-6c2549d8838c:image.png)
+![](https://i.imgur.com/NkkesxL.png)
+
 
 - 상태가 존재하기 때문에 한 번 순회하면 재사용할 수 없다.
 - 내부에 존재하는 **__next__메서드**를 통해 다음 값을 하나씩 차례대로 반환한다.
@@ -138,4 +139,4 @@ for i in iterator_a:
 
 대표적으로 우리가 많이 활용하는 이터레이터로는 for문이 있다.
 
-![image.png](attachment:ba9d9d58-f56b-40f2-9c23-61ba20ea8b0e:image.png)
+![](https://i.imgur.com/GnPUKNc.png)
