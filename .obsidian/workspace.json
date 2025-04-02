@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/zip함수(두 리스트의 데이터 엮기).md",
+                "file": "Python/map함수.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "zip함수(두 리스트의 데이터 엮기)"
+              "title": "map함수"
             }
           }
         ]
@@ -181,6 +181,7 @@
   },
   "active": "ed57879a6cf274ac",
   "lastOpenFiles": [
+    "Python/zip함수(두 리스트의 데이터 엮기).md",
     "Python/startswith(), endswith()함수(문자열 시작 문자, 끝 문자 검색).md",
     "Python/map함수.md",
     "Python/Lambda(람다).md",
@@ -204,7 +205,6 @@
     "무제.md",
     "README.md",
     "프로그래머스(level0)",
-    "Python/zip함수(두 리스트의 데이터 엮기).md",
     "Python.md",
     "().md",
     "Pasted image 20250318231249.png",

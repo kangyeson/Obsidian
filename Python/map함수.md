@@ -13,6 +13,13 @@ squared = map(square, numbers) #함수에 numbers의 객체를 모두 적용
 print(list(squared)) # [1, 4, 9, 16, 25]
 ```
 
+- 리스트의 값들을 형변환하기
+
+```python
+def solution(num_str):
+    return sum(map(int, num_str)) #string타입 num_str리스트의 값들을 int로 변환시켜 sum
+```
+
 - 여러 개의 리스트를 map함수에 적용하기
 
 ```python
